@@ -1,0 +1,91 @@
+Jun  5 06:31:38 metasploitable syslogd 1.5.0#1ubuntu1: restart.
+Jun  5 06:31:38 metasploitable postfix/pickup[4492]: 85640CC46: uid=0 from=<root>
+Jun  5 06:31:38 metasploitable postfix/cleanup[7447]: 85640CC46: message-id=<20260605103138.85640CC46@metasploitable.localdomain>
+Jun  5 06:31:38 metasploitable postfix/qmgr[4494]: 85640CC46: from=<root@metasploitable.localdomain>, size=815, nrcpt=1 (queue active)
+Jun  5 06:31:38 metasploitable postfix/local[7449]: 85640CC46: to=<root@metasploitable.localdomain>, orig_to=<root>, relay=local, delay=395, delays=395/0.03/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Jun  5 06:31:38 metasploitable postfix/qmgr[4494]: 85640CC46: removed
+Jun  5 06:34:47 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 06:34:47 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 06:34:47 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 06:34:47 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 274 seconds.
+Jun  5 06:39:01 metasploitable /USR/SBIN/CRON[7465]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Jun  5 06:39:21 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 06:39:21 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 06:39:21 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 06:39:21 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 276 seconds.
+Jun  5 06:43:57 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 06:43:57 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 06:43:57 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 06:43:57 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 251 seconds.
+Jun  5 06:48:08 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 06:48:08 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 06:48:08 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 06:48:08 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 265 seconds.
+Jun  5 06:52:33 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 06:52:33 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 06:52:33 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 06:52:33 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 286 seconds.
+Jun  5 06:57:19 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 06:57:19 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 06:57:19 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 06:57:19 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 276 seconds.
+Jun  5 07:01:55 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:01:55 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:01:55 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:01:55 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 237 seconds.
+Jun  5 07:05:52 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:05:52 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:05:52 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:05:52 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 301 seconds.
+Jun  5 07:09:01 metasploitable /USR/SBIN/CRON[7560]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Jun  5 07:10:53 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:10:53 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:10:53 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:10:53 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 229 seconds.
+Jun  5 07:14:42 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:14:42 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:14:42 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:14:42 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 287 seconds.
+Jun  5 07:17:02 metasploitable /USR/SBIN/CRON[7593]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  5 07:19:29 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:19:29 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:19:29 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:19:29 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:19:29 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 245 seconds.
+Jun  5 07:23:34 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:23:34 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:23:34 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:23:34 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 301 seconds.
+Jun  5 07:28:35 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:28:35 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:28:35 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:28:35 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 284 seconds.
+Jun  5 07:33:19 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:33:19 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:33:19 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:33:19 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 280 seconds.
+Jun  5 07:37:59 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:37:59 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:37:59 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:37:59 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 256 seconds.
+Jun  5 07:39:01 metasploitable /USR/SBIN/CRON[7652]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Jun  5 07:42:15 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:42:15 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:42:15 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:42:15 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 243 seconds.
+Jun  5 07:46:18 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:46:18 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:46:18 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:46:18 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 289 seconds.
+Jun  5 07:51:07 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:51:07 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:51:07 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:51:07 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 262 seconds.
+Jun  5 07:55:29 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 07:55:29 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 07:55:29 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 07:55:29 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 276 seconds.
+Jun  5 08:00:05 metasploitable dhclient: DHCPREQUEST of <null address> on eth0 to 192.168.56.100 port 67
+Jun  5 08:00:05 metasploitable dhclient: DHCPACK of 192.168.56.102 from 192.168.56.100
+Jun  5 08:00:05 metasploitable dhclient: can't create /var/lib/dhcp3/dhclient.eth0.leases: Permission denied
+Jun  5 08:00:05 metasploitable dhclient: bound to 192.168.56.102 -- renewal in 263 seconds.

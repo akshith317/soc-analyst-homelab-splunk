@@ -1,0 +1,260 @@
+Feb 28 04:37:49 metasploitable sshd[4175]: Server listening on :: port 22.
+Feb 28 04:37:49 metasploitable sshd[4175]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 28 04:38:18 metasploitable login[4701]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Feb 28 04:39:01 metasploitable CRON[4803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 04:39:01 metasploitable CRON[4803]: pam_unix(cron:session): session closed for user root
+Feb 28 04:55:08 metasploitable sshd[4120]: Server listening on :: port 22.
+Feb 28 04:55:08 metasploitable sshd[4120]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 28 04:55:31 metasploitable login[4646]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Feb 28 05:02:01 metasploitable CRON[4755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 05:02:01 metasploitable CRON[4755]: pam_unix(cron:session): session closed for user root
+Feb 28 05:09:01 metasploitable CRON[4768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 05:09:02 metasploitable CRON[4768]: pam_unix(cron:session): session closed for user root
+Feb 28 05:17:01 metasploitable CRON[4788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 05:17:01 metasploitable CRON[4788]: pam_unix(cron:session): session closed for user root
+Feb 28 05:17:31 metasploitable sudo: msfadmin : TTY=tty1 ; PWD=/home/msfadmin ; USER=root ; COMMAND=/sbin/ifconfig eth0 192.168.100.20 netmask 255.255.255.0 up
+Feb 28 05:17:31 metasploitable sudo: pam_unix(sudo:session): session opened for user root by msfadmin(uid=0)
+Feb 28 05:17:31 metasploitable sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 05:19:39 metasploitable sshd[4801]: Did not receive identification string from 192.168.100.10
+Feb 28 05:19:44 metasploitable rlogind[4805]: Connection from 192.168.100.10 on illegal port
+Feb 28 05:19:44 metasploitable rlogind[4822]: Connection from 192.168.100.10 on illegal port
+Feb 28 08:15:25 metasploitable sshd[4080]: Server listening on :: port 22.
+Feb 28 08:15:25 metasploitable sshd[4080]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 28 08:15:48 metasploitable login[4607]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Feb 28 08:16:22 metasploitable sshd[4080]: Received SIGHUP; restarting.
+Feb 28 08:16:22 metasploitable sshd[4730]: Server listening on :: port 22.
+Feb 28 08:16:22 metasploitable sshd[4730]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 28 08:17:01 metasploitable CRON[4754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 08:17:01 metasploitable CRON[4754]: pam_unix(cron:session): session closed for user root
+Feb 28 08:21:24 metasploitable sshd[4116]: Server listening on :: port 22.
+Feb 28 08:21:24 metasploitable sshd[4116]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 28 08:22:17 metasploitable login[4643]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Feb 28 08:25:01 metasploitable sshd[4747]: Did not receive identification string from 192.168.56.101
+Feb 28 08:25:06 metasploitable rlogind[4756]: Connection from 192.168.56.101 on illegal port
+Feb 28 08:36:43 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:43 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:43 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=kali rhost=192.168.56.101 
+Feb 28 08:36:43 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:43 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=kali rhost=192.168.56.101 
+Feb 28 08:36:43 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=kali rhost=192.168.56.101 
+Feb 28 08:36:44 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:44 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=kali rhost=192.168.56.101 
+Feb 28 08:36:46 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:46 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=kali rhost=192.168.56.101 
+Feb 28 08:36:46 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:46 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:46 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=met rhost=192.168.56.101 
+Feb 28 08:36:46 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=met rhost=192.168.56.101 
+Feb 28 08:36:48 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:48 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=met rhost=192.168.56.101 
+Feb 28 08:36:49 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:49 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=met rhost=192.168.56.101 
+Feb 28 08:36:49 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:49 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=met rhost=192.168.56.101 
+Feb 28 08:36:50 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=msfadmin rhost=192.168.56.101  user=msfadmin
+Feb 28 08:36:53 metasploitable last message repeated 3 times
+Feb 28 08:36:54 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:54 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=aks rhost=192.168.56.101 
+Feb 28 08:36:54 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:54 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=aks rhost=192.168.56.101 
+Feb 28 08:36:56 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:56 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=aks rhost=192.168.56.101 
+Feb 28 08:36:56 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:56 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=aks rhost=192.168.56.101 
+Feb 28 08:36:58 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Feb 28 08:36:58 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=aks rhost=192.168.56.101 
+Feb 28 08:39:01 metasploitable CRON[4832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 08:39:01 metasploitable CRON[4832]: pam_unix(cron:session): session closed for user root
+Mar 10 02:08:48 metasploitable sshd[4076]: Server listening on :: port 22.
+Mar 10 02:08:48 metasploitable sshd[4076]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 10 02:17:01 metasploitable CRON[4719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 10 02:17:01 metasploitable CRON[4719]: pam_unix(cron:session): session closed for user root
+Mar 10 02:39:01 metasploitable CRON[4768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 10 02:39:01 metasploitable CRON[4768]: pam_unix(cron:session): session closed for user root
+Mar 12 05:33:19 metasploitable sshd[4162]: Server listening on :: port 22.
+Mar 12 05:33:19 metasploitable sshd[4162]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 12 05:39:01 metasploitable CRON[4792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 05:39:02 metasploitable CRON[4792]: pam_unix(cron:session): session closed for user root
+Mar 12 05:40:54 metasploitable rshd[4814]: Connection from 10.208.204.76 on illegal port
+Mar 12 05:40:55 metasploitable sshd[4810]: Did not receive identification string from 10.208.204.76
+Mar 12 05:41:00 metasploitable rlogind[4815]: Connection from 10.208.204.76 on illegal port
+Mar 12 05:41:00 metasploitable rlogind[4834]: Connection from 10.208.204.76 on illegal port
+Mar 12 05:41:06 metasploitable rshd[4840]: Connection from 10.208.204.76 on illegal port
+Mar 12 06:09:01 metasploitable CRON[4875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 06:09:01 metasploitable CRON[4875]: pam_unix(cron:session): session closed for user root
+Mar 12 06:17:01 metasploitable CRON[4895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 06:17:01 metasploitable CRON[4895]: pam_unix(cron:session): session closed for user root
+May  2 13:10:48 metasploitable sshd[4109]: Server listening on :: port 22.
+May  2 13:10:48 metasploitable sshd[4109]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May  2 13:11:11 metasploitable login[4634]: pam_unix(login:auth): check pass; user unknown
+May  2 13:11:11 metasploitable login[4634]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost= 
+May  2 13:11:13 metasploitable login[4634]: FAILED LOGIN (1) on 'tty1' FOR `UNKNOWN', User not known to the underlying authentication module
+May  2 13:11:26 metasploitable login[4634]: pam_unix(login:auth): check pass; user unknown
+May  2 13:11:28 metasploitable login[4634]: FAILED LOGIN (2) on 'tty1' FOR `UNKNOWN', User not known to the underlying authentication module
+May  2 13:12:02 metasploitable login[4634]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May  2 13:17:01 metasploitable CRON[4747]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 13:17:01 metasploitable CRON[4747]: pam_unix(cron:session): session closed for user root
+May  2 13:39:01 metasploitable CRON[4797]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 13:39:01 metasploitable CRON[4797]: pam_unix(cron:session): session closed for user root
+May  3 02:27:10 metasploitable sshd[4125]: Server listening on :: port 22.
+May  3 02:27:10 metasploitable sshd[4125]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May  3 02:27:57 metasploitable login[4658]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May  3 02:39:01 metasploitable CRON[4786]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 02:39:01 metasploitable CRON[4786]: pam_unix(cron:session): session closed for user root
+May  3 02:43:46 metasploitable login[4658]: pam_unix(login:session): session closed for user msfadmin
+May  3 02:44:09 metasploitable login[4811]: pam_unix(login:auth): check pass; user unknown
+May  3 02:44:09 metasploitable login[4811]: pam_unix(login:auth): authentication failure; logname=msfadmin uid=0 euid=0 tty=tty1 ruser= rhost= 
+May  3 02:44:11 metasploitable login[4811]: FAILED LOGIN (1) on 'tty1' FOR `UNKNOWN', User not known to the underlying authentication module
+May  3 02:45:06 metasploitable login[4811]: pam_unix(login:session): session opened for user msfadmin by msfadmin(uid=0)
+May  3 02:47:01 metasploitable login[3993]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May  3 02:54:20 metasploitable sshd[4241]: Server listening on :: port 22.
+May  3 02:54:20 metasploitable sshd[4241]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May  3 04:12:39 metasploitable sshd[4120]: Server listening on :: port 22.
+May  3 04:12:39 metasploitable sshd[4120]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May  3 04:17:01 metasploitable CRON[4748]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 04:17:01 metasploitable CRON[4748]: pam_unix(cron:session): session closed for user root
+May  3 04:18:50 metasploitable login[4645]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May  3 04:34:28 metasploitable sshd[4793]: Accepted password for msfadmin from 192.168.56.101 port 42126 ssh2
+May  3 04:34:28 metasploitable sshd[4795]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 04:39:02 metasploitable CRON[4807]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 04:39:02 metasploitable CRON[4807]: pam_unix(cron:session): session closed for user root
+May  3 04:41:12 metasploitable sshd[4795]: Received disconnect from 192.168.56.101: 11: disconnected by user
+May  3 04:41:12 metasploitable sshd[4795]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 04:42:19 metasploitable sshd[4828]: Accepted password for msfadmin from 192.168.56.101 port 57404 ssh2
+May  3 04:42:19 metasploitable sshd[4830]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 04:52:28 metasploitable sshd[4861]: Did not receive identification string from 192.168.56.101
+May  3 04:52:34 metasploitable rlogind[4869]: Connection from 192.168.56.101 on illegal port
+May  3 05:04:32 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=msfadmin rhost=192.168.56.101  user=msfadmin
+May  3 05:09:01 metasploitable CRON[4935]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 05:09:01 metasploitable CRON[4935]: pam_unix(cron:session): session closed for user root
+May  3 05:17:01 metasploitable CRON[4973]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 05:17:01 metasploitable CRON[4973]: pam_unix(cron:session): session closed for user root
+May  3 05:22:20 metasploitable sshd[4830]: Received disconnect from 192.168.56.101: 11: disconnected by user
+May  3 05:22:20 metasploitable sshd[4830]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 05:23:21 metasploitable sshd[5003]: Accepted password for msfadmin from 192.168.56.101 port 52760 ssh2
+May  3 05:23:21 metasploitable sshd[5005]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 05:27:13 metasploitable sshd[5016]: Accepted password for msfadmin from 192.168.56.101 port 60514 ssh2
+May  3 05:27:13 metasploitable sshd[5018]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 05:39:01 metasploitable CRON[5055]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 05:39:01 metasploitable CRON[5055]: pam_unix(cron:session): session closed for user root
+May  3 05:39:16 metasploitable sshd[5068]: Accepted password for msfadmin from 192.168.56.1 port 51994 ssh2
+May  3 05:39:16 metasploitable sshd[5070]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 05:39:16 metasploitable sshd[5070]: subsystem request for sftp
+May  3 05:39:16 metasploitable sshd[5070]: Received disconnect from 192.168.56.1: 11: disconnected by user
+May  3 05:39:16 metasploitable sshd[5070]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 06:09:01 metasploitable CRON[5137]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 06:09:01 metasploitable CRON[5137]: pam_unix(cron:session): session closed for user root
+May  3 08:40:00 metasploitable sshd[4155]: Server listening on :: port 22.
+May  3 08:40:00 metasploitable sshd[4155]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May  3 08:40:47 metasploitable login[4680]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May  3 08:42:51 metasploitable sshd[4783]: Accepted password for msfadmin from 192.168.56.101 port 56170 ssh2
+May  3 08:42:51 metasploitable sshd[4785]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:47:30 metasploitable sshd[4802]: Accepted password for msfadmin from 192.168.56.1 port 58196 ssh2
+May  3 08:47:30 metasploitable sshd[4804]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:47:30 metasploitable sshd[4804]: subsystem request for sftp
+May  3 08:47:30 metasploitable sshd[4804]: Received disconnect from 192.168.56.1: 11: disconnected by user
+May  3 08:47:30 metasploitable sshd[4804]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:49:21 metasploitable sshd[4814]: Accepted password for msfadmin from 192.168.56.1 port 58226 ssh2
+May  3 08:49:21 metasploitable sshd[4817]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:51:11 metasploitable sshd[4822]: Accepted password for msfadmin from 192.168.56.102 port 58306 ssh2
+May  3 08:51:11 metasploitable sshd[4824]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:51:11 metasploitable sshd[4824]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:51:22 metasploitable sshd[4830]: Accepted password for msfadmin from 192.168.56.102 port 58307 ssh2
+May  3 08:51:22 metasploitable sshd[4832]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:51:22 metasploitable sshd[4832]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:55:25 metasploitable sshd[4847]: Accepted password for msfadmin from 192.168.56.102 port 41425 ssh2
+May  3 08:55:25 metasploitable sshd[4849]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:55:25 metasploitable sshd[4849]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:56:08 metasploitable sshd[4854]: Accepted password for msfadmin from 192.168.56.102 port 41426 ssh2
+May  3 08:56:08 metasploitable sshd[4856]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:56:08 metasploitable sshd[4856]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:56:22 metasploitable sshd[4862]: Accepted password for msfadmin from 192.168.56.102 port 41427 ssh2
+May  3 08:56:22 metasploitable sshd[4864]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:56:22 metasploitable sshd[4864]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:56:48 metasploitable sshd[4869]: Accepted password for msfadmin from 192.168.56.102 port 41428 ssh2
+May  3 08:56:48 metasploitable sshd[4871]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:56:48 metasploitable sshd[4871]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:57:36 metasploitable sshd[4817]: Received disconnect from 192.168.56.1: 11: disconnected by user
+May  3 08:57:36 metasploitable sshd[4817]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 08:59:11 metasploitable sshd[4886]: Accepted password for msfadmin from 192.168.56.1 port 53619 ssh2
+May  3 08:59:11 metasploitable sshd[4888]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 08:59:11 metasploitable sshd[4888]: subsystem request for sftp
+May  3 08:59:11 metasploitable sshd[4888]: Received disconnect from 192.168.56.1: 11: disconnected by user
+May  3 08:59:11 metasploitable sshd[4888]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 09:01:01 metasploitable sshd[4892]: Accepted password for msfadmin from 192.168.56.1 port 53646 ssh2
+May  3 09:01:01 metasploitable sshd[4894]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  3 09:01:01 metasploitable sshd[4894]: subsystem request for sftp
+May  3 09:01:01 metasploitable sshd[4894]: Received disconnect from 192.168.56.1: 11: disconnected by user
+May  3 09:01:01 metasploitable sshd[4894]: pam_unix(sshd:session): session closed for user msfadmin
+May  3 09:09:01 metasploitable CRON[4914]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 09:09:02 metasploitable CRON[4914]: pam_unix(cron:session): session closed for user root
+May  3 09:17:01 metasploitable CRON[4944]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 09:17:01 metasploitable CRON[4944]: pam_unix(cron:session): session closed for user root
+May  3 09:39:01 metasploitable CRON[4994]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 09:39:01 metasploitable CRON[4994]: pam_unix(cron:session): session closed for user root
+May  3 10:09:01 metasploitable CRON[5071]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 10:09:01 metasploitable CRON[5071]: pam_unix(cron:session): session closed for user root
+May  3 10:17:01 metasploitable CRON[5101]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 10:17:01 metasploitable CRON[5101]: pam_unix(cron:session): session closed for user root
+May  3 10:39:01 metasploitable CRON[5152]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 10:39:01 metasploitable CRON[5152]: pam_unix(cron:session): session closed for user root
+May  6 11:42:08 metasploitable sshd[4136]: Server listening on :: port 22.
+May  6 11:42:09 metasploitable sshd[4136]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May  6 11:44:56 metasploitable login[4659]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May  6 11:47:26 metasploitable sshd[4776]: Did not receive identification string from 192.168.56.1
+May  6 11:47:29 metasploitable rlogind[4784]: Connection from 192.168.56.1 on illegal port
+May  6 11:50:43 metasploitable sshd[4807]: Accepted password for msfadmin from 192.168.56.1 port 57287 ssh2
+May  6 11:50:43 metasploitable sshd[4809]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May  6 11:51:05 metasploitable sshd[4819]: Did not receive identification string from 192.168.56.1
+May  6 11:51:11 metasploitable rlogind[4835]: Connection from 192.168.56.1 on illegal port
+May  6 11:52:42 metasploitable sshd[4809]: pam_unix(sshd:session): session closed for user msfadmin
+Jun  5 05:46:12 metasploitable sshd[4139]: Server listening on :: port 22.
+Jun  5 05:46:12 metasploitable sshd[4139]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Jun  5 05:48:47 metasploitable login[4665]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Jun  5 05:53:54 metasploitable sshd[4778]: Accepted password for msfadmin from 192.168.56.101 port 54954 ssh2
+Jun  5 05:53:54 metasploitable sshd[4780]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+Jun  5 06:09:01 metasploitable CRON[4823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 06:09:01 metasploitable CRON[4823]: pam_unix(cron:session): session closed for user root
+Jun  5 06:10:18 metasploitable sshd[4780]: Received disconnect from 192.168.56.101: 11: disconnected by user
+Jun  5 06:10:18 metasploitable sshd[4780]: pam_unix(sshd:session): session closed for user msfadmin
+Jun  5 06:11:26 metasploitable sshd[4837]: Accepted password for msfadmin from 192.168.56.101 port 41264 ssh2
+Jun  5 06:11:26 metasploitable sshd[4840]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+Jun  5 06:11:41 metasploitable sshd[4840]: Received disconnect from 192.168.56.101: 11: disconnected by user
+Jun  5 06:11:41 metasploitable sshd[4840]: pam_unix(sshd:session): session closed for user msfadmin
+Jun  5 06:13:23 metasploitable sshd[4848]: Accepted password for msfadmin from 192.168.56.101 port 58666 ssh2
+Jun  5 06:13:23 metasploitable sshd[4851]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+Jun  5 06:17:01 metasploitable CRON[4858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 06:17:01 metasploitable CRON[4858]: pam_unix(cron:session): session closed for user root
+Jun  5 06:25:01 metasploitable CRON[4879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 06:25:03 metasploitable sudo:     root : TTY=unknown ; PWD=/ ; USER=msfadmin ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/use_http_proxy
+Jun  5 06:25:03 metasploitable sudo: pam_unix(sudo:session): session opened for user msfadmin by (uid=0)
+Jun  5 06:25:03 metasploitable sudo: pam_unix(sudo:session): session closed for user msfadmin
+Jun  5 06:25:03 metasploitable sudo:     root : TTY=unknown ; PWD=/ ; USER=msfadmin ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/host
+Jun  5 06:25:03 metasploitable sudo: pam_unix(sudo:session): session opened for user msfadmin by (uid=0)
+Jun  5 06:25:03 metasploitable sudo: pam_unix(sudo:session): session closed for user msfadmin
+Jun  5 06:25:03 metasploitable sudo:     root : TTY=unknown ; PWD=/ ; USER=msfadmin ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/port
+Jun  5 06:25:03 metasploitable sudo: pam_unix(sudo:session): session opened for user msfadmin by (uid=0)
+Jun  5 06:25:03 metasploitable sudo: pam_unix(sudo:session): session closed for user msfadmin
+Jun  5 06:28:05 metasploitable sshd[4912]: Did not receive identification string from 192.168.56.101
+Jun  5 06:28:11 metasploitable rlogind[4921]: Connection from 192.168.56.101 on illegal port
+Jun  5 06:31:38 metasploitable CRON[4879]: pam_unix(cron:session): session closed for user root
+Jun  5 06:32:39 metasploitable sshd[7451]: Invalid user wronguser from 192.168.56.101
+Jun  5 06:32:39 metasploitable sshd[7451]: Failed none for invalid user wronguser from 192.168.56.101 port 40780 ssh2
+Jun  5 06:32:42 metasploitable sshd[7451]: pam_unix(sshd:auth): check pass; user unknown
+Jun  5 06:32:42 metasploitable sshd[7451]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101 
+Jun  5 06:32:44 metasploitable sshd[7451]: Failed password for invalid user wronguser from 192.168.56.101 port 40780 ssh2
+Jun  5 06:32:49 metasploitable sshd[7451]: pam_unix(sshd:auth): check pass; user unknown
+Jun  5 06:32:52 metasploitable sshd[7451]: Failed password for invalid user wronguser from 192.168.56.101 port 40780 ssh2
+Jun  5 06:32:55 metasploitable sshd[7451]: pam_unix(sshd:auth): check pass; user unknown
+Jun  5 06:32:57 metasploitable sshd[7451]: Failed password for invalid user wronguser from 192.168.56.101 port 40780 ssh2
+Jun  5 06:32:57 metasploitable sshd[7451]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101 
+Jun  5 06:39:01 metasploitable CRON[7464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 06:39:01 metasploitable CRON[7464]: pam_unix(cron:session): session closed for user root
+Jun  5 06:46:43 metasploitable vsftpd: pam_unix(ftp:auth): check pass; user unknown
+Jun  5 06:46:43 metasploitable vsftpd: pam_unix(ftp:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ls rhost=192.168.56.101 
+Jun  5 07:09:01 metasploitable CRON[7559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 07:09:01 metasploitable CRON[7559]: pam_unix(cron:session): session closed for user root
+Jun  5 07:17:01 metasploitable CRON[7592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 07:17:02 metasploitable CRON[7592]: pam_unix(cron:session): session closed for user root
+Jun  5 07:39:01 metasploitable CRON[7651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  5 07:39:01 metasploitable CRON[7651]: pam_unix(cron:session): session closed for user root
